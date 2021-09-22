@@ -91,7 +91,7 @@ input.src:hover{
     align-items: center;
     margin-bottom: 0;
     padding-bottom: 0;
-    border-bottom: .5px solid rgb(0, 0, 0);
+    border-bottom: .5px solid #000000;
 }
 .titulo-user__nombre small{
     display: flex;
@@ -105,11 +105,92 @@ input.src:hover{
 }
 .aside nav {
     position: fixed;
-    top: 20rem;
+    top: 15rem;
     left: -1rem;
-    background-color: firebrick;
+    padding: 9px;
   }
   .aside nav ul{
+      border: 1px solid #86000000;
+      border-radius: 9px;
       text-align: center;
+      padding: 10px;
   }
-  
+  .aside nav ul li{
+      background-color: transparent;
+      border: 1px solid #5700006e;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      padding: 5px;
+      margin-bottom: 1px;
+      font-size: 25px;
+      color: #1c0068;
+  }
+  .aside nav ul li a{
+      color: #370050;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      transition: all ease-out 300ms;
+  }
+
+/*maybe pa borrar es mucho texto*/
+/*Son los efectos del aside*/
+.aside__home{
+    transition: 0.2s;
+    overflow: hidden;
+    background: linear-gradient(to right, #5e42a6, #b74e91)
+}
+.aside__contact{
+    transition: 0.2s;
+    overflow: hidden;
+    background: linear-gradient(to right, #dd5a5a, #94573f)
+}
+.aside__service{
+    transition: 0.2s;
+    overflow: hidden;
+    background: linear-gradient(to right, #5e42a6, #b74e91)
+}
+.aside__redes{
+    transition: 0.2s;
+    overflow: hidden;
+    background: linear-gradient(to right, #dd5a5a, #94573f)
+}
+.aside__pay{
+    transition: 0.2s;
+    overflow: hidden;
+    background: linear-gradient(to right, #5e42a6, #b74e91)
+}
+.aside__home:hover{
+    color: #5e42a6;
+    background-color: #5e42a6;
+    box-shadow: 0 0 10px #5e42a6, 0 0 40px #5e42a6, 0 0 80px #5e42a6;
+    transition-delay: 100ms;
+}
+.aside__contact:hover{
+    color: #dd5a5a;
+    background-color: #dd5a5a;
+    box-shadow: 0 0 10px #dd5a5a, 0 0 40px #dd5a5a, 0 0 80px #dd5a5a;
+    transition-delay: 100ms;
+}
+.aside__service:hover{
+    color: #5e42a6;
+    background-color: #5e42a6;
+    box-shadow: 0 0 10px #5e42a6, 0 0 40px #5e42a6, 0 0 80px #5e42a6;
+    transition-delay: 100ms;
+}
+.aside__redes:hover{
+    color: #dd5a5a;
+    background-color: #dd5a5a;
+    box-shadow: 0 0 10px #dd5a5a, 0 0 40px #dd5a5a, 0 0 80px #dd5a5a;
+    transition-delay: 100ms;
+}
+.aside__pay:hover{
+    color: #5e42a6;
+    background-color: #5e42a6;
+    box-shadow: 0 0 10px #5e42a6, 0 0 40px #5e42a6, 0 0 80px #5e42a6;
+    transition-delay: 100ms;
+}
+/*maybe pa borrar es mucho texto*/
